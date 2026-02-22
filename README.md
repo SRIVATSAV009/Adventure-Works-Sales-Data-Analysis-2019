@@ -1,5 +1,6 @@
 
 📊 #Adventure Works Sales Data Analysis (2019)
+
 📌 Project Overview
 
 This project demonstrates an end-to-end Business Intelligence solution built using the Adventure Works 2019 dataset. The objective was to simulate a real-world business scenario — translating stakeholder requirements into a structured data model and interactive sales dashboard.
