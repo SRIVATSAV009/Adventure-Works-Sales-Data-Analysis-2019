@@ -1,77 +1,84 @@
+# ADVENTURE WORKS SALES DATA ANALYSIS (2019)
 
-📊 #Adventure Works Sales Data Analysis (2019)
+## PROJECT OVERVIEW
 
-📌 Project Overview
+THIS PROJECT DEMONSTRATES AN END-TO-END BUSINESS INTELLIGENCE SOLUTION USING THE ADVENTURE WORKS 2019 DATASET.  
+THE OBJECTIVE WAS TO SIMULATE A REAL-WORLD BUSINESS SCENARIO — TRANSLATING STAKEHOLDER REQUIREMENTS INTO A STRUCTURED DATA MODEL AND AN INTERACTIVE SALES DASHBOARD.
 
-This project demonstrates an end-to-end Business Intelligence solution built using the Adventure Works 2019 dataset. The objective was to simulate a real-world business scenario — translating stakeholder requirements into a structured data model and interactive sales dashboard.
+THE PROJECT COVERS DATA MODELING, SQL-BASED DATA WAREHOUSE DESIGN, AND KPI-DRIVEN ANALYTICS USING POWER BI.
 
-The solution includes dimensional modeling, SQL-based data warehouse design, and a Power BI report for KPI-driven analysis.
+---
 
-🏗️ Data Model
+## DATA WAREHOUSE ARCHITECTURE
 
-A Star Schema architecture was implemented:
+A STAR SCHEMA MODEL WAS IMPLEMENTED TO ENSURE SCALABILITY AND ANALYTICAL EFFICIENCY.
 
-Fact Table
+### FACT TABLE
+- FACT_INTERNETSALES
 
-FACT_InternetSales
+### DIMENSION TABLES
+- DIM_CALENDAR
+- DIM_CUSTOMERS
+- DIM_PRODUCTS
 
-Dimension Tables
+THE FACT TABLE STORES MEASURABLE SALES TRANSACTIONS, WHILE DIMENSION TABLES PROVIDE DESCRIPTIVE CONTEXT FOR ANALYSIS.
 
-DIM_Calendar
+---
 
-DIM_Customers
+## TECHNOLOGIES USED
 
-DIM_Products
+- SQL (DDL SCRIPTS FOR TABLE CREATION)
+- POWER BI (DASHBOARD & KPI VISUALIZATION)
+- MICROSOFT EXCEL (SALES BUDGET INTEGRATION)
+- CSV DATA SOURCES
+- DIMENSIONAL MODELING (KIMBALL METHODOLOGY)
 
-Each dimension table contains descriptive attributes, while the fact table stores measurable sales transactions.
+---
 
-🛠️ Technologies Used
+## KEY ANALYTICS FEATURES
 
-SQL (DDL scripts for schema creation)
+- REVENUE, PROFIT, AND ORDER KPIs
+- YEAR-OVER-YEAR (YOY) SALES ANALYSIS
+- MONTHLY SALES TRENDS
+- BUDGET VS ACTUAL PERFORMANCE TRACKING
+- PRODUCT CATEGORY PERFORMANCE
+- CUSTOMER SEGMENTATION ANALYSIS
+- INTERACTIVE FILTERS AND DRILL-DOWN CAPABILITIES
 
-Power BI (Dashboard & KPI reporting)
+---
 
-Excel (Sales Budget integration)
+## BUSINESS OBJECTIVE
 
-CSV datasets
+ENABLE DATA-DRIVEN DECISION MAKING BY PROVIDING INSIGHTS INTO:
 
-Dimensional Data Modeling (Kimball methodology)
+- SALES PERFORMANCE TRENDS
+- CUSTOMER BEHAVIOR AND DEMOGRAPHICS
+- PRODUCT PROFITABILITY
+- FINANCIAL PERFORMANCE AGAINST BUDGET
 
-📊 Key Features
+---
 
-Revenue, Profit, and Order KPIs
+## PROJECT WORKFLOW
 
-Year-over-Year (YoY) & Monthly Trends
+BUSINESS REQUEST → REQUIREMENT ANALYSIS → DATA MODEL DESIGN → SQL IMPLEMENTATION → DATA VALIDATION → POWER BI DASHBOARD DELIVERY
 
-Budget vs Actual Sales Analysis
+---
 
-Product & Customer Performance Insights
+## REPOSITORY STRUCTURE
 
-Interactive filters and drill-down capability
+DIM_CALENDAR.SQL / DIM_CALENDAR.CSV  
+DIM_CUSTOMERS.SQL / DIM_CUSTOMERS.CSV  
+DIM_PRODUCTS.SQL / DIM_PRODUCTS.CSV  
+FACT_INTERNETSALES.SQL / FACT_INTERNETSALES.CSV  
+SALESBUDGET.XLSX  
+POWER BI REPORT (.PBIX)  
+BUSINESS REQUIREMENT DOCUMENTS  
+README.MD  
 
-📁 Repository Structure
-DIM_Calendar.sql / .csv
-DIM_Customers.sql / .csv
-DIM_Products.sql / .csv
-FACT_InternetSales.sql / .csv
-SalesBudget.xlsx
-Power BI Report (.pbix)
-Business Requirement Documents
-README.md
-🎯 Business Objective
+---
 
-To enable data-driven decision-making by providing insights into:
+## OUTCOME
 
-Sales performance trends
+THIS PROJECT SIMULATES A REAL-WORLD BI LIFECYCLE, DEMONSTRATING DATA MODELING EXPERTISE, SQL DEVELOPMENT, KPI DESIGN, AND ANALYTICS DELIVERY.
 
-Customer segmentation
-
-Product profitability
-
-Budget alignment vs actual revenue
-
-🚀 Outcome
-
-This project simulates a real-world BI lifecycle:
-
-Business Request → Data Modeling → SQL Implementation → Dashboard Delivery
+IT REFLECTS PRACTICAL EXPERIENCE IN BUILDING ANALYTICS-READY DATA MODELS FOR ENTERPRISE REPORTING ENVIRONMENTS.
